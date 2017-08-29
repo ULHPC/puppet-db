@@ -1,0 +1,42 @@
+{
+  "name": "db",
+  "version": "0.0.1",
+  "author": "UL HPC Team",
+  "mail": "hpc-sysadmins@uni.lu",
+  "summary": "Meta-module to manage {My,PostGre}SQL Databases in a generic and homogeneous way",
+  "description": "Meta-module to manage {My,PostGre}SQL Databases in a generic and homogeneous way",
+  "license": "Apache-2.0",
+  "source": "https://github.com/ULHPC/pupper-db",
+  "docs_project": "ulhpc-puppet-db",
+  "project_page": "https://github.com/ULHPC/pupper-db",
+  "issues_url": "https://github.com/ULHPC/pupper-db/issues",
+  "forge_url": "https://forge.puppetlabs.com/ULHPC/db",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">=4.2.2 <5.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    }
+  ],
+  "tags": ["database", "mysql", "postgresql", "pgsql"]
+}
